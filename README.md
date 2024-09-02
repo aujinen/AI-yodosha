@@ -2,6 +2,8 @@
 動作環境関連のコマンドを変更、修正する以外は、オリジナルコードを保持しています。<br>
 新潟大学大学院医歯学総合研究科　顎顔面放射線学分野　大学院演習用です。<br>
 動作しうるローカル環境については、README_Local.mdを参考にして下さい(準備中)。<br>
+
+※オリジナルGitHub： https://github.com/TMDU-AI/AI-yodosha<br>
 ## AI-yodosha(『Pythonで体感！ 医療とAIはじめの一歩』サポートページ )
 
 <div style="display: flex; align-items: flex-start;">
