@@ -5,6 +5,7 @@ By. H.Nishiyama
 ## Windowsにてpipenvを利用する環境
 GPU無し：https://www5.dent.niigata-u.ac.jp/~nisiyama/grad/python/pipenv-sys-install-nonGPU-j.pdf<br>
 GPU有り：https://www5.dent.niigata-u.ac.jp/~nisiyama/grad/python/pipenv-sys-install-GPU-j.pdf<br>
+※CUDA:11.7, cuDNN:8.6.7, Python:3.9.7, TensorFlow-GPU:2.6.0
 
 ## Windowsにてminicondaを利用する環境
 https://www5.dent.niigata-u.ac.jp/~nisiyama/grad/python/install-miniconda.pdf
