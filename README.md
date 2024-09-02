@@ -4,6 +4,9 @@
 動作しうるローカル環境については、<a href = "https://github.com/aujinen/AI-yodosha/blob/main/README_local.md">README_Local.md<a>を参考にして下さい。<br>
 
 ※オリジナルGitHub： https://github.com/TMDU-AI/AI-yodosha<br>
+
+下記テキストは大学院演習での教科書の内の1冊となります。<br>
+
 ## AI-yodosha(『Pythonで体感！ 医療とAIはじめの一歩』サポートページ )
 
 <div style="display: flex; align-items: flex-start;">
