@@ -10,11 +10,11 @@ GPU有り：https://www5.dent.niigata-u.ac.jp/~nisiyama/grad/python/pipenv-sys-i
 GPU動作用のPipfileについては、<a href="https://github.com/aujinen/AI-yodosha/blob/main/Pipfile_with_GPU.txt">Pipfile_with_GPU.txt<a>内部を参照、ないしコピーして使ってください。<br>
 
 ### 共通ライブラリ
-jupyter
-matplotlib
-japanize-matplotlib
-pandas
-scikit-learn
+jupyter<br>
+matplotlib<br>
+japanize-matplotlib<br>
+pandas<br>
+scikit-learn<br>
 
 
 ## Windowsにてminicondaを利用する環境
