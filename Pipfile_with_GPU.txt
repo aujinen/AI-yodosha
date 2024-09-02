@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow-gpu = "==2.6.0"
+jupyter = "*"
+matplotlib = "*"
+pandas = "*"
+scikit-learn = "*"
+scipy = "*"
+cython = "*"
+pydicom = "*"
+opencv-python = "*"
+keras = "==2.6.0"
+japanize-matplotlib = "*"
+docx = "*"
+yt-dlp = "*"
+pip-audit = "*"
+protobuf = "==3.19.6"
+tqdm = "*"
+nbconvert = "*"
+
+[dev-packages]
+pipfile-requirements = "*"
+
+[requires]
+python_version = "3.9"
