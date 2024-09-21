@@ -3,6 +3,8 @@
 新潟大学大学院医歯学総合研究科　顎顔面放射線学分野　大学院演習用です。<br>
 ***※医療情報ないし医療情報に準じる医療データを扱う演習については、ローカル環境で実行することを前提としています。***<br>
 動作しうるローカル環境については、<a href = "https://github.com/aujinen/AI-yodosha/blob/main/README_local.md">README_Local.md<a>を参考にして下さい。<br>
+※Chapter5に入っている「images_TMDU.zip」はファイル一式をzip形式でダウンロードし、解凍操作を経ると、中身が空の状態となるようです。<br>
+※後から「images_TMDU.zip」のみをダウンロードしてChapter5に入れるようにしましょう。<br>
 
 ※オリジナルGitHub： https://github.com/TMDU-AI/AI-yodosha<br>
 
