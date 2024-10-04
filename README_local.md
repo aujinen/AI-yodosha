@@ -3,15 +3,15 @@
 By. H.Nishiyama
 
 ## Windowsにてpipenvを利用する環境
-### PyTorchを利用する場合
-<a href="https://qiita.com/aujinen/items/db919ceee6da8db1155c">Pytorch+CUDAをpipenv環境にて構築する手順（Windows11での例）</a>
-
+### TensorFlowを利用する場合
 CPU単体（GPU無し）：https://www5.dent.niigata-u.ac.jp/~nisiyama/grad/python/pipenv-sys-install-nonGPU-j.pdf<br>
 ※Python:3.9.7, TensorFlow:2.17.0<br>
 CPU単体での動作用のPipfileについては、<a href="https://github.com/aujinen/AI-yodosha/blob/main/Pipfile_only_CPU.txt">Pipfile_only_CPU.txt</a>内部を参照、ないしコピーして使ってください。<br>
 GPU有り：https://www5.dent.niigata-u.ac.jp/~nisiyama/grad/python/pipenv-sys-install-GPU-j.pdf<br>
 ※CUDA:11.7, cuDNN:8.6.7, Python:3.9.7, TensorFlow-GPU:2.6.0<br>
 GPU動作用のPipfileについては、<a href="https://github.com/aujinen/AI-yodosha/blob/main/Pipfile_with_GPU.txt">Pipfile_with_GPU.txt</a>内部を参照、ないしコピーして使ってください。<br>
+### PyTorchを利用する場合（ここにある演習のオリジナルはTensorFlowの利用を前提としているが、PyTorchで稼動する版も追加予定）
+<a href="https://qiita.com/aujinen/items/db919ceee6da8db1155c">Pytorch+CUDAをpipenv環境にて構築する手順（Windows11での例）</a>
 
 ### 共通ライブラリ
 jupyter<br>
