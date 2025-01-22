@@ -1,7 +1,8 @@
 Chapter5の演習モデル2種類をSonyのNeural Network Console Desktopに移植しました。<br>
 ※参照：<a href="https://techhub.developer.sony.com/ja/neural-network-console">Neural Network Console</a><br>
 Neural Network Consoleでは、グラフィカルな環境で各レイヤーを接続することで簡単にモデル構築可能です。<br><br>
-ソースコードを　```NNabla```ライブラリ利用前提でのPythonコードとしてエクスポートし、こちらに置きました。<br>
+オリジナルのプロジェクトファイル（モデル定義ファイル）でドロップアウト前の版```AI-Yodosha.sdcproj```、ドロップアウトを組み入れた版を```AI-Yodosha_dropout.sdcproj```としてこちらにアップしてあります。<br>
+また、ソースコードを　```NNabla```ライブラリ利用前提でのPythonコードとしてエクスポートし、こちらに置きました。<br>
 ドロップアウト前の版を```AI-Yodosha.py```、ドロップアウトを組み入れた版を```AI-Yodosha_dropout.py```としています。<br>
 なお、こちらの版では、入力画像（1024x1024）を「64x64」のサイズに変更する過程を```Interpolate```というレイヤー（関数）で処理しています。<br>
 Sony Neural Network Libraryを使う前提でのソースコードですが、テキストのKerasのライブラリを使った版と比較すれば、内容的にほぼおなじであることが分かります。<br>
