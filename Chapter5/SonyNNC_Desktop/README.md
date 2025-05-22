@@ -8,7 +8,7 @@ Neural Network Consoleでは、グラフィカルな環境で各レイヤーを�
 Sony Neural Network Libraryを使う前提でのソースコードですが、テキストのKerasのライブラリを使った版と比較すれば、内容的にほぼおなじであることが分かります。<br>
 ※参照：<a href="https://nnabla.org/ja/">Neural Network Libraries</a><br><br>
 ドロップアウトレイヤーの挿入前後での構築後のモデル、学習曲線、および評価時のConfusion Matrix、さらにテスト画像の評価結果の図を置いておきます。<br>
-<a href="https://github.com/aujinen/AI-yodosha/blob/main/Chapter5/SonyNNC_Desktop/Sony%20Neural%20Network%20Console%20Desktop%E7%A7%BB%E6%A4%8D.pdf">Sony Neural Network Console Desktop移植.pdf</a>
+<a href="https://github.com/aujinen/AI-yodosha/blob/main/Chapter5/SonyNNC_Desktop/Sony%20Neural%20Network%20Console%20Desktop%E7%A7%BB%E6%A4%8D.pdf">Sony Neural Network Console Desktop移植.pdf</a><br>
 ※SonyのNeural Network Console Desktopでのバグ<br>
 ※EvaluationタグではValidationを使い混同行列を取得し、InferenceではTestを使うのが良い<br>
 https://groups.google.com/g/neural_network_console_users_jp/c/GNMgrjcrXAE/m/tPmhghQxCwAJ<br>
