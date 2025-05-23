@@ -2,7 +2,7 @@
 各フォルダ内のindex.csvの内容に従って、dataフォルダ内にハードリンクを埋め込む。<br>
 変換ソフトは mk_hardLink_from_AI-yodosya-content_to_nncd_bucket-datasets.ipynb<br>
 上記にてdataフォルダ内に元画像へのハードリンクが作成されたことを確認後<br>
-直下の３つのフォルダ以下を```C:\Users\[ユーザ名]\nncd_bucket\datasets```直下にコピーする。<br>
+直下の３つのフォルダ(AI_Yodosha_train, AI_Yodosha_valid, AI_Yodosha_test)以下を```C:\Users\[ユーザ名]\nncd_bucket\datasets```直下にコピーする。<br>
 
 ### Linuxの場合
 各フォルダ内の```index.csv```の改行コードを```nkf -d index.csv```にて変換する。<br>
@@ -11,4 +11,4 @@
 各フォルダ内のindex.csvの内容に従って、dataフォルダ内にハードリンクを埋め込む。<br>
 変換ソフトはwindows用のmk_hardLink_from_AI-yodosya-content_to_nncd_bucket-datasets.ipynbでのパス区切りを修正すれば、使える。<br>
 上記にてdataフォルダ内に元画像へのハードリンクが作成されたことを確認後<br>
-直下の３つのフォルダ以下を```/home[ユーザ名]/nncd_bucket/datasets```直下にコピーする。<br>
+直下の３つのフォルダ(AI_Yodosha_train, AI_Yodosha_valid, AI_Yodosha_test)以下を```/home[ユーザ名]/nncd_bucket/datasets```直下にコピーする。<br>
