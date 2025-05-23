@@ -10,7 +10,7 @@ Sony Neural Network Libraryを使う前提でのソースコードですが、�
 ドロップアウトレイヤーの挿入前後での構築後のモデル、学習曲線、および評価時のConfusion Matrix、さらにテスト画像の評価結果の図を置いておきます。<br>
 <a href="https://github.com/aujinen/AI-yodosha/blob/main/Chapter5/SonyNNC_Desktop/Sony%20Neural%20Network%20Console%20Desktop%E7%A7%BB%E6%A4%8D.pdf">Sony Neural Network Console Desktop移植.pdf</a><br>
 ※EvaluationタグではValidationを使い混同行列を取得し、InferenceではTestを使うのが良い<br>
-※Inferenceにて実行後、アップロードエリアに複数枚のテストデータ画像をドロップすれば良い<br><br>
+※Inferenceにて実行をクリックし、アップロードエリアに複数枚のテストデータ画像をドロップすれば良い<br><br>
 ●覚え書き※SonyのNeural Network Console Desktopでのバグ（ないし仕様）<br>
 https://groups.google.com/g/neural_network_console_users_jp/c/GNMgrjcrXAE/m/tPmhghQxCwAJ<br>
 CONFIG -> Datasetにて, Executeデータを「Validation」から変更できない。
