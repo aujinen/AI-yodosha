@@ -1,16 +1,22 @@
 # Neural Network Console - Desktop への移植について
-Chapter5の演習モデル2種類をSonyのNeural Network Console Desktopに移植しました。<br>
+### モデルの移植について
+Chapter5の演習モデル2種類をSonyのNeural Network Console - Desktop（以下、NNC-Desktop）に移植しました。<br>
+<a href="https://nnabla.org/ja/nnc/">Neural Network Console</a><br>
+※Neural Network Console - Windows（以下、NNC-Windows）ではないので注意
 Neural Network Consoleでは、グラフィカルな環境で各レイヤーを接続することで簡単にモデル構築可能です。<br><br>
 オリジナルのプロジェクトファイル（モデル定義ファイル）でドロップアウト前の版```AI-Yodosha.sdcproj```、ドロップアウトを組み入れた版を```AI-Yodosha_dropout.sdcproj```としてこちらにアップしてあります。<br>
+### データの移植について
+１つ下のフォルダ```move_to_datasets```に移植に関する注意事項を別途記載します。<br>
+注意：１つ上のフォルダ```Chapter5```内の```images_TMDU.zip```データを解凍していることが前提条件となります。<br>
 ### 2種類ある「Sony Neural Network Console」に注意
 SonyのNeural Network Consoleは2種類あります。<br>
 <a href="https://nnabla.org/ja/nnc/">Neural Network Console</a><br>
 今回のものは2つめの「Neural Network Console - Desktop」への移植版となります。<br>
-1. Neural Network Console - Windows（以下、NNC-Windows）<br>
+1. Neural Network Console - Windows（NNC-Windows）<br>
    Windows環境専用で2017年8月にリリースされver 1.0からver 3.3.1(2025/5/27現在)まで複数回アップデートされています。書籍も比較的あり、ビデオ資料も豊富です。こちらはオープンソースソフトウェア（OSS）ではありません。<br>
    <a href="https://www.youtube.com/c/NeuralNetworkConsole">ビデオ資料</a><br>
    参考資料：足立悠. ソニー開発のNeural Network Console 入門──数式なし、コーディングなしのディープラーニング. リックテレコム; 2018. <br>
-2. Neural Network Console - Desktop（以下、NNC-Desktop）<br>
+2. Neural Network Console - Desktop（NNC-Desktop）<br>
    オンライン版が廃止になる少し前にOSSのソフトとして（オンライン版の移植版として）出てきました。<br>
    githubのサイトは下記になります。<br>
    <a href="https://github.com/sony/nnc-desktop">nnc-desktop</a><br>
