@@ -4,6 +4,7 @@ Neural Network Consoleでは、グラフィカルな環境で各レイヤーを�
 【注意】一般的に「Neural Network Console」として参照されているソフトと提供元サイトは閉鎖されていますが、Neural Network Console Desktop版のみ生き残っています。<br>
 ※Sonyおよびnnabla.org内でのNeural Network Consoleサイトが閉鎖されているため、リンクを含めて改変しました。<br>
 ※幸いなことにgithub内のソースおよびリリース版は維持されておられるようでしたので、そちらへのリンクを含め、改訂しました。<br>
+※ローカル環境にダウンロードしたい場合、この記事の一番最後を見てください。<br>
 ### モデルの移植について
 Chapter5の演習モデル2種類をSonyのNeural Network Console Desktop（以下、NNC-Desktop）に移植しました。<br>
 <a href="https://github.com/sony/nnc-desktop">nnc-desktop</a><br>
@@ -57,5 +58,9 @@ Executor_NetworkName=MainRuntime<br>
 Executor_DatasetName=Validation<br>
 ＝＝＝<br>
 3．Projectの「import」で修正された「CONFIG」設定ごと取り込めるが、データセットそのもののリンク（割当）は解除されており、当然、学習データ（の結果）は空の状態になる。また同じファイル名であっても「*.sdcproj」拡張子が付いたプロジェクト名になるため、編集元のファイルへの上書きはされない（できない）。<br>
-
-
+## Neural Network Console Desktop版のダウンロード
+※windows版の NeuralNetworkConsoleDesktop.Setup.0.2.0.exe のsha256は<br>
+b69671737f1fcfdfb65415bebe2904e388823e58c4ac1f28f7637a3d7e032911<br>
+です。<br>
+<a href="https://github.com/sony/nnc-desktop/releases">nnc-desktop/releases</a><br>
+<img width="1007" height="597" alt="image" src="https://github.com/user-attachments/assets/92ab8c55-1ddf-4633-ba46-c13b63127727" />
