@@ -63,4 +63,5 @@ Executor_DatasetName=Validation<br>
 b69671737f1fcfdfb65415bebe2904e388823e58c4ac1f28f7637a3d7e032911<br>
 です。<br>
 <a href="https://github.com/sony/nnc-desktop/releases">nnc-desktop/releases</a><br>
-<img width="1007" height="597" alt="image" src="https://github.com/user-attachments/assets/92ab8c55-1ddf-4633-ba46-c13b63127727" />
+<img width="1552" height="1086" alt="image" src="https://github.com/user-attachments/assets/2faa7c2d-1369-46b2-96a7-0c771a3e8f2b" />
+
